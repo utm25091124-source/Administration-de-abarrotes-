@@ -1,0 +1,27 @@
+Inicio
+
+Definir producto Como Cadena
+Definir precio, cantidad, total, totalVenta Como Real
+Definir i Como Entero
+
+totalVenta = 0
+
+Para i = 1 Hasta 5 Hacer
+
+    Escribir "Ingrese el nombre del producto:"
+    Leer producto
+
+    Escribir "Ingrese el precio:"
+    Leer precio
+
+    Escribir "Ingrese la cantidad:"
+    Leer cantidad
+
+    total = precio * cantidad
+    totalVenta = totalVenta + total
+
+FinPara
+
+Escribir "El total de la venta es: ", totalVenta
+
+Fin
